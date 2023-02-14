@@ -39,24 +39,18 @@ function Footer() {
 
 function Tag() {
 
-    const funfact = <div>{<Funfact/>}</div>
+    // const funfact = <div>{<Funfact/>}</div>
 
-    const header = <header>{<Header/>}</header>
+    // const header = <header>{<Header/>}</header>
 
-    const footer = <footer>{<Footer/>}</footer>
+    // const footer = <footer>{<Footer/>}</footer>
     
     // const element1 = <ul><li>Thing1</li><li>Thing2</li><li>Thing3</li></ul>
     return(
         <div className="Tag">
-            {/* <div> */}
-                {header}
-            {/* </div> */}
-            {/* <div> */}
-                {funfact}
-            {/* </div> */}
-            {/* <div> */}
-                {footer}
-            {/* </div> */}
+            <Header/>
+            <Funfact/>
+            <Footer/>
         </div>
     )
 }
