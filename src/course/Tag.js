@@ -17,10 +17,10 @@ function Funfact() {
 
 function Header() {
     return(
-        <nav>
-            <img src="./src/course/Capture d’écran 2022-07-19 171913.png" alt="logo" width={"40px"}/>
-            <h1>Create your CV</h1>
-            <ul>
+        <nav className="navbar">
+            <img src="./Capture d’écran 2022-07-19 171913.png" alt="logo" width={"40px"}/>
+            {/* <h1>Create your CV</h1> */}
+            <ul className="nav-items">
                 <li>Home</li>
                 <li>CV</li>
                 <li>Login</li>
